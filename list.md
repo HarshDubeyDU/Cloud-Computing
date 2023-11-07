@@ -10,12 +10,21 @@ Content Delivery Network.
 - Improving website security
 
 ##### [CDN Providers:]()
-CloudFlare
-AWS
+- CloudFlare
+- AWS
+- MaxCDN
+- Incapsula
+- Google
 
 # Computing
+####
 
 # Networking
+#### [Computer Network Architecture]()
+- [Computer Network Architecture]()
+
+- [Peer-to-Peer Architecture]()
+
 
 # Storage
 
@@ -23,25 +32,27 @@ AWS
 
 # Database
 
-#### SQL (Structered Query Language)
+#### [SQL (Structered Query Language)]()
+RDBMS - A Relational Database Management System which stores and process information in a relational database.
 
 ##### [Structure]()
-organizes data in relational, tabular ways, using tables with columns or attributes and rows of records.
+Organizes data in relational, tabular ways, using tables with columns or attributes and rows of records.
 ##### [Examples:]()
-MySQL
-Postgresql
+- MySQL
+- Postgresql
 ###### [Areas of Use:]()
-Well Suited for Structered or tabled data
-NOSQL (Non SQL or Non Structured Query Language)
+Well suited for building applications structured around a relationship between data tables.
+
+#### [NOSQL (Non SQL or Non Structured Query Language)]()
 ###### [Structure]()
 Stores data in table form.
 ###### [Examples:]()
-MongoDB
+- MongoDB
 
 ###### [Applications:]()
 
 Areas of Use:
-Well suited for
+
 
 ###### [Best performance is achieved when both are used simultaneously in an application.]()
 # Caching
@@ -49,6 +60,9 @@ Example: Reddis
 
 # Architecture
 ##### [API \{ Application Programming Interface \}]()
-API GateWay -----> API Endpoint -----> Controller Layer(Controls and Handles User Request and delivers response to user) -----> Service Layer(Bussiness Logic) ------> Dao Layer(Talks to the Database: Performs CRUD Operations,ie. Create, Read, Update and Delete Data)
+User Request -----> API GateWay -----> API Endpoint -----> Controller Layer(Controls and Handles User Request and delivers response to user) -----> Service Layer(Bussiness Logic) ------> Dao Layer(Talks to the Database: Performs CRUD Operations,ie. Create, Read, Update and Delete Data)
+
+#### [MonoLith Applications]()
+#### [Microservices]()
 
 # Observability

@@ -63,6 +63,22 @@ Example: Reddis
 User Request -----> API GateWay -----> API Endpoint -----> Controller Layer(Controls and Handles User Request and delivers response to user) -----> Service Layer(Bussiness Logic) ------> Dao Layer(Talks to the Database: Performs CRUD Operations,ie. Create, Read, Update and Delete Data)
 
 #### [MonoLith Applications]()
+[![Monolith Architecture](https://wac-cdn.atlassian.com/dam/jcr:95b9a276-c524-42b1-8d06-ded56d589858/Monolithic%20architecture@2x.png?cdnVersion=1302)]()
+- Standalone Applications
+- Computes every task on its own
+##### [Benefits]()
+- Easy deployment – One executable file or directory makes deployment easier.
+- Development – When an application is built with one code base, it is easier to develop.
+- Performance – In a centralized code base and repository, one API can often perform the same function that numerous APIs perform with microservices.
+- Simplified testing – Since a monolithic application is a single, centralized unit, end-to-end testing can be performed faster than with a distributed application. 
+- Easy debugging – With all code located in one place, it’s easier to follow a request and find an issue.
+
+- Cost-Effectiveness – Amazon Reported - ["Amazon Prime Video team's recent case study has revealed an interesting shift from a serverless microservices architecture to a monolith approach. This change resulted in a significant 90% reduction in operating expenses ..."]()
+##### [Drawbacks]()
+- Application becomes complex as it grows over the time
+- 
 #### [Microservices]()
+- Each task is performed by a individual application(Application may be independent or dependent on other services)
+- 
 
 # Observability

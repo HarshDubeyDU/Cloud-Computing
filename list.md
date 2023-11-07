@@ -17,7 +17,7 @@ Content Delivery Network.
 - Google
 
 # Computing
-####
+#### 
 
 # Networking
 #### [Computer Network Architecture]()
@@ -25,6 +25,10 @@ Content Delivery Network.
 
 - [Peer-to-Peer Architecture]()
 
+#### [Load Balancer]()
+[Types of Load Balancer]()
+
+#### [VPN]()
 
 # Storage
 
@@ -34,7 +38,6 @@ Content Delivery Network.
 
 #### [SQL (Structered Query Language)]()
 RDBMS - A Relational Database Management System which stores and process information in a relational database.
-
 ##### [Structure]()
 Organizes data in relational, tabular ways, using tables with columns or attributes and rows of records.
 ##### [Examples:]()
@@ -44,15 +47,24 @@ Organizes data in relational, tabular ways, using tables with columns or attribu
 Well suited for building applications structured around a relationship between data tables.
 
 #### [NOSQL (Non SQL or Non Structured Query Language)]()
+Database design that enables the storage and querying of data outside the traditional structures found in relational databases.
 ###### [Structure]()
-Stores data in table form.
-###### [Examples:]()
-- MongoDB
-
+###### [Types of NoSQL Databses]()
+- Document Databases
+- Key-value databases
+- Wide-column stores
+- Graph databases
+###### [Benefits of NoSQL Databases]()
+- Flexible schemas
+- Horizontal scaling
+- Fast queries due to the data model
+- Ease of use for developers
 ###### [Applications:]()
 
 Areas of Use:
 
+###### [Examples:]()
+- MongoDB
 
 ###### [Best performance is achieved when both are used simultaneously in an application.]()
 # Caching
@@ -76,9 +88,33 @@ User Request -----> API GateWay -----> API Endpoint -----> Controller Layer(Cont
 - Cost-Effectiveness – Amazon Reported - ["Amazon Prime Video team's recent case study has revealed an interesting shift from a serverless microservices architecture to a monolith approach. This change resulted in a significant 90% reduction in operating expenses ..."]()
 ##### [Drawbacks]()
 - Application becomes complex as it grows over the time
-- 
+- Slower development speed – A large, monolithic application makes development more complex and slower.
+- Scalability – You can’t scale individual components.
+- Reliability – If there’s an error in any module, it could affect the entire application’s availability.
+- Barrier to technology adoption – Any changes in the framework or language affects the entire application, making changes often expensive and time-consuming.
+- Lack of flexibility – A monolith is constrained by the technologies already used in the monolith.
+- Deployment – A small change to a monolithic application requires the redeployment of the entire monolith.
 #### [Microservices]()
+[![Microservices Architecture](https://wac-cdn.atlassian.com/dam/jcr:5308ccab-dc94-46f5-978c-8a77b8d5be57/Microservice%20architecture@2x.png?cdnVersion=1302)]()
+- Application is divided into small group of applications which communicate over the network to receive request and return response which results in the overall functioning of the application.
 - Each task is performed by a individual application(Application may be independent or dependent on other services)
-- 
+
+
+##### [Benefits]()
+- Agility – Promote agile ways of working with small teams that deploy frequently.
+
+- Flexible scaling – If a microservice reaches its load capacity, new instances of that service can rapidly be deployed to the accompanying cluster to help relieve pressure. We are now multi-tenanant and stateless with customers spread across multiple instances. Now we can support much larger instance sizes. 
+
+- Continuous deployment – We now have frequent and faster release cycles. Before we would push out updates once a week and now we can do so about two to three times a day. 
+
+- Highly maintainable and testable – Teams can experiment with new features and roll back if something doesn’t work. This makes it easier to update code and accelerates time-to-market for new features. Plus, it is easy to isolate and fix faults and bugs in individual services.
+
+- Independently deployable – Since microservices are individual units they allow for fast and easy independent deployment of individual features. 
+
+- Technology flexibility – Microservice architectures allow teams the freedom to select the tools they desire. 
+
+- High reliability – You can deploy changes for a specific service, without the threat of bringing down the entire application.
+
+- Happier teams – The Atlassian teams who work with microservices are a lot happier, since they are more autonomous and can build and deploy themselves without waiting weeks for a pull request to be approved.
 
 # Observability

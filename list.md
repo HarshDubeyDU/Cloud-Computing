@@ -40,6 +40,8 @@ Content Delivery Network.
 RDBMS - A Relational Database Management System which stores and process information in a relational database.
 ##### [Structure]()
 Organizes data in relational, tabular ways, using tables with columns or attributes and rows of records.
+##### [Benefits]()
+
 ##### [Examples:]()
 - MySQL
 - Postgresql
@@ -75,9 +77,9 @@ Example: Reddis
 User Request -----> API GateWay -----> API Endpoint -----> Controller Layer(Controls and Handles User Request and delivers response to user) -----> Service Layer(Bussiness Logic) ------> Dao Layer(Talks to the Database: Performs CRUD Operations,ie. Create, Read, Update and Delete Data)
 
 #### [MonoLith Applications]()
-[![Monolith Architecture](https://wac-cdn.atlassian.com/dam/jcr:95b9a276-c524-42b1-8d06-ded56d589858/Monolithic%20architecture@2x.png?cdnVersion=1302)]()
 - Standalone Applications
 - Computes every task on its own
+[![Monolith Architecture](https://wac-cdn.atlassian.com/dam/jcr:95b9a276-c524-42b1-8d06-ded56d589858/Monolithic%20architecture@2x.png?cdnVersion=1302)]()
 ##### [Benefits]()
 - Easy deployment – One executable file or directory makes deployment easier.
 - Development – When an application is built with one code base, it is easier to develop.
@@ -95,9 +97,9 @@ User Request -----> API GateWay -----> API Endpoint -----> Controller Layer(Cont
 - Lack of flexibility – A monolith is constrained by the technologies already used in the monolith.
 - Deployment – A small change to a monolithic application requires the redeployment of the entire monolith.
 #### [Microservices]()
-[![Microservices Architecture](https://wac-cdn.atlassian.com/dam/jcr:5308ccab-dc94-46f5-978c-8a77b8d5be57/Microservice%20architecture@2x.png?cdnVersion=1302)]()
 - Application is divided into small group of applications which communicate over the network to receive request and return response which results in the overall functioning of the application.
 - Each task is performed by a individual application(Application may be independent or dependent on other services)
+[![Microservices Architecture](https://wac-cdn.atlassian.com/dam/jcr:5308ccab-dc94-46f5-978c-8a77b8d5be57/Microservice%20architecture@2x.png?cdnVersion=1302)]()
 
 
 ##### [Benefits]()

@@ -17,7 +17,32 @@ Content Delivery Network.
 - Google
 
 # Computing
-#### 
+#### [Types of Computing]()
+- [Cloud Computing]()
+- [Personal Computing]()
+- [Client Server Computing]()
+- [Time Sharing Computing]()
+- [Cluster Computing]()
+- [Distributed Computing]()
+- [Grid Computing]()
+
+##### [Cloud Computing]()
+###### [Types of Cloud]() - Deployment Model
+- [Public Cloud]() - Manufacturing organization shares cloud with general public.
+- [Private Cloud]() - Manufacturing organization has its own private cloud.\
+Model offers similar benefits to a public cloud.\
+Services and infrastructure are maintained on a private network.\
+This provides greater control and privacy, making it suitable for organizations with strict security, compliance, and regulatory requirements.\
+They can be physically located on the company's on-site data center or hosted by a third-party service provider.
+- [Hybrid Cloud]() - Combination of cloud deployment models\
+Hybrid cloud combines the features of both public and private clouds, allowing data and applications to be shared between the two.
+##### [Personal Computing]()
+##### [Client Server Computing]()
+##### [Time Sharing Computing]()
+##### [Cluster Computing]()
+##### [Distributed Computing]()
+##### [Grid Computing]()
+
 
 # Networking
 #### [Computer Network Architecture]()
@@ -75,6 +100,7 @@ Example: Reddis
 # Architecture
 ##### [API \{ Application Programming Interface \}]()
 User Request -----> API GateWay -----> API Endpoint -----> Controller Layer(Controls and Handles User Request and delivers response to user) -----> Service Layer(Bussiness Logic) ------> Dao Layer(Talks to the Database: Performs CRUD Operations,ie. Create, Read, Update and Delete Data)
+[![API WORKING](https://media.geeksforgeeks.org/wp-content/uploads/20220306170607/Fig48.jpg)]()
 
 #### [MonoLith Applications]()
 - Standalone Applications
